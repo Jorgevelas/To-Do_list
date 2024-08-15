@@ -25,5 +25,3 @@ Utiliza el almacenamiento local del navegador para guardar el progreso de las ta
 Implementa funciones clave como .click, saveData, y load para gestionar la lógica de la aplicación.
 Funcionamiento
 El proyecto utiliza HTML para definir la estructura de la página, CSS para diseñar la apariencia visual, y JavaScript para manejar la interactividad y la persistencia de datos. Los usuarios pueden interactuar con la lista de tareas a través de botones, y cualquier cambio realizado será guardado automáticamente en el almacenamiento local del navegador, lo que permite mantener el estado de las tareas incluso después de cerrar y volver a abrir el navegador.
-
-

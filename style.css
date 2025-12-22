@@ -1,7 +1,5 @@
-/* Importación de fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/* Estilos generales */
 *, *:before, *:after {
     margin: 0;
     padding: 0;
@@ -11,7 +9,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* Contenedor principal */
 .container {
     width: 100%;
     min-height: 100vh;
@@ -22,7 +19,6 @@ body {
     align-items: center;
 }
 
-/* Aplicación de la lista de tareas */
 .todo-app {
     width: 100%;
     max-width: 540px;
@@ -35,24 +31,24 @@ body {
     gap: 2rem;
 }
 
-/* Título de la aplicación */
+
 .app-title {
     display: flex;
-    flex-direction: column; /* Cambiamos a columna para que el <p> aparezca debajo del <h2> */
+    flex-direction: column; 
     gap: 1rem;
     align-items: center;
 }
 
-.app-title h2, .app-title p { /* Seleccionamos tanto el <h2> como el <p> para aplicarles estilos similares */
+.app-title h2, .app-title p { 
     color: #002765;
-    font-weight: bold; /* Ajustamos el peso de la fuente para que sea más grueso */
+    font-weight: bold;
 }
 
 .app-title p {
-    font-size: 16px; /* Tamaño de letra mediano */
+    font-size: 16px; 
 }
 
-/* Estilos para el input y botón */
+
 .row {
     display: flex;
     align-items: center;
@@ -84,7 +80,6 @@ button:hover {
     filter: brightness(.8);
 }
 
-/* Estilos para la lista de tareas */
 ul {
     list-style: none;
 }
@@ -113,7 +108,7 @@ ul .checked::before {
     background-color: #000;
 }
 
-/* Estilos para el span */
+
 span {
     position: absolute;
     right: 0;
@@ -134,10 +129,10 @@ span:hover {
     color: #fff;
 }
 
-/* Media query para dispositivos móviles */
 @media screen and (max-width: 400px) {
     button {
         padding: 15px;
         border-radius: 0 30px 30px 0;
     }
 }
+
